@@ -3,7 +3,7 @@ name: Deploy JS to EC2
 on:
   push:
     branches:
-      - main  # triggers whenever you push to main branch
+      - master  # triggers whenever you push to main branch
 
 jobs:
   deploy:
